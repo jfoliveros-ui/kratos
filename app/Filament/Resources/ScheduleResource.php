@@ -23,7 +23,7 @@ class ScheduleResource extends Resource
     protected static ?string $navigationLabel = 'Asignar Horario';
     protected static ?string $navigationGroup = 'Asignaciones';
     protected static ?int $navigationSort = 7;
-    //protected static ?string $navigationIcon = 'icon-asig_hor';
+    protected static ?string $navigationIcon = 'icon-asig_hor';
     public static function form(Form $form): Form
     {
         return $form
